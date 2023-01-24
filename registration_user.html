@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" a href="bootstrap/css/css3.css">
+    <link rel="stylesheet" href="bootstrap\css\font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.css">
+    <link rel="stylesheet" href="bootstrap\css\mdb.css">
+    <link rel="stylesheet" href="bootstrap\css\style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+</head>
+
+<body>
+
+    <!-- Nav bar-->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-teal fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <i class="fa fa-plane-departure"></i> PHP</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#travel-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="travel-navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-3">
+                        <a href="loginn.html" class="nav-link">
+                            <h4>LOGIN</h4>
+                        </a>
+                    </li>
+
+                    <li class="nav-item px-3">
+                        <a href="registration_user.html" class="nav-link">
+                            <h4>Registration</h4>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Area -->
+    <section>
+        <div class="container" >
+            <div class="row justify-content-center" data-aos="zoom-out-left">
+                <div class="col-md-6" data-aos="zoom-out-right">
+                    <div class="login-box">
+                        <div class="title">
+                           
+                        </div>
+                        <form action="reg.php" method="POST" class="form-1">
+                            
+                            <div class="row mt-4 form-group">
+                                <div class="col-12">
+                                    <label>Name</label>
+                                    <input type="text" placeholder="Full name" name="fullname">
+                                </div>
+                            </div>
+                            
+                            <div class="row mt-4 form-group">
+                                <div class="col-12">
+                                    <label>Email</label>
+                                    <input type="email" placeholder="Email" name="email">
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="row mt-4 form-group">
+                                <div class="col-12">
+                                    <label>Password</label>
+                                    <input type="password" placeholder="Password" name="password">
+                                </div>
+                            </div>
+                            <div class="row mt-4 form-group">
+                                <div class="col-12">
+                                    <label> repeat Password</label>
+                                    <input type="password" placeholder="Password" name="rpassword">
+                                </div>
+                            </div>
+
+                            <div class="row mt-4 form-group">
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn-2" input type="submit" name="save" value="submit">Register</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+
+
+    <!-- Contact Section -->
+    
+
+    <!-- Main Footer -->
+    
+
+
+    <!-- bootstrap Js file -->
+    <script src="bootstrap\js\jquery.js"></script>
+    <script src="bootstrap\js\popper.min.js"></script>
+    <script src="bootstrap\js\bootstrap.js"></script>
+    <script src="bootstrap\js\mdb.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3200,
+            pause: 'hover'
+        });
+    </script>
+    <script type="text/javascript">
+        AOS.init({
+            duration: 1500,
+        })
+    </script>
+</body>
+
+</html>
